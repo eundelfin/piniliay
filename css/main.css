@@ -13,7 +13,7 @@ body {
 }
 
 .body-pattern {
-    background:url('../img/squairy_light_2.png') repeat-x scroll 0 0 #fff;
+    background:url('../img/squairy_light_2.png') repeat-x scroll 0 0 #F4F4F4;
 }
 
 p {
@@ -454,7 +454,7 @@ footer .footer-below {
 }
 
 .candidate-tab{
-  background-color:#fff;
+  background-color:#F4F4F4;
   padding-bottom: 10px;
   padding-right: 24px;
 }
@@ -526,7 +526,7 @@ img.grayedout:hover {
 		}
 
     .footer-basic-centered{
-    	background-color: #292c2f;
+    	background-color: #0F5723;
     	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     	box-sizing: border-box;
     	width: 100%;
@@ -595,9 +595,10 @@ img.grayedout:hover {
   margin-bottom: 12px;
   border-bottom: 1px solid #ECF0F1;
   padding-bottom: 11px;
-  background-color: rgba(0, 112, 192, 0.04);
+  background-color: #f5f9fa;
   border-left: 3px solid #0070c0;
   padding-top: 11px;
+  box-shadow: 0 0px 1px rgba(0,0,0,0.15);
 }
 .issue-col{
   padding: 10px 14px !important;
@@ -762,4 +763,85 @@ html {
 body {
     display:table-cell;
     vertical-align:middle;
+}
+
+/* custom footer */
+.footer-distributed{
+	background-color: #1C2E36;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	/*max-width: 180px;*/
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: #04421D;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
+.top-container{
+  margin-left: 50px;
+padding: 12px;
+
 }
